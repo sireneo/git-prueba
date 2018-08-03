@@ -4,7 +4,7 @@
 
     <groupId>com.sijucol</groupId>
     <artifactId>prueba2</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0</version>
     <packaging>war</packaging>
 
     <name>prueba2</name>
@@ -20,6 +20,11 @@
             <artifactId>javaee-web-api</artifactId>
             <version>7.0</version>
             <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.primefaces</groupId>
+            <artifactId>primefaces</artifactId>
+            <version>6.2</version>
         </dependency>
     </dependencies>
 
